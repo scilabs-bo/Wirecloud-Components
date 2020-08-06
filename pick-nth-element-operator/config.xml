@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<operator xmlns="http://wirecloud.conwet.fi.upm.es/ns/macdescription/1" vendor="SCiLabs" name="pick-nth-element" version="1.0.0">
+  <details>
+    <title>Pick n-th element</title>
+    <homepage>https://github.com/smart-city-lab-2050/Wirecloud-Components</homepage>
+    <authors>Fabian Baeumer</authors>
+    <email>fabian.baeumer@scilabs.de</email>
+    <description>Picks a single element from an array of elements provided as input</description>
+    <license>MIT</license>
+    <licenseurl>https://opensource.org/licenses/MIT</licenseurl>
+    <doc>doc/userguide.md</doc>
+    <changelog>doc/changelog.md</changelog>
+    <issuetracker>https://github.com/smart-city-lab-2050/Wirecloud-Components/issues</issuetracker>
+  </details>
+  <preferences>
+    <preference name="index" type="number" label="Index" default="0" />
+  </preferences>
+  <wiring>
+    <inputendpoint name="arrayInput" type="text" label="Array" description="Array to pick the n-th element from" friendcode="list entitiy-list array"/>
+    <outputendpoint name="elementOutput" type="text" label="Element" description="n-th element of input" friendcode="element entity"/>
+  </wiring>
+  <scripts>
+    <script src="js/main.js"/>
+  </scripts>
+</operator>
