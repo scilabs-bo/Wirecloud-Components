@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<widget xmlns="http://wirecloud.conwet.fi.upm.es/ns/macdescription/1" vendor="SCiLabs" name="traffic-light" version="1.0.0">
+  <details>
+    <title>Traffic light</title>
+    <homepage>https://github.com/smart-city-lab-2050/Wirecloud-Components</homepage>
+    <authors>Fabian Baeumer</authors>
+    <email>fabian.baeumer@scilabs.de</email>
+    <description>Visualize a single boolean value using a red or green circle</description>
+    <license>MIT</license>
+    <licenseurl>https://opensource.org/licenses/MIT</licenseurl>
+    <doc>doc/userguide.md</doc>
+    <changelog>doc/changelog.md</changelog>
+    <issuetracker>https://github.com/smart-city-lab-2050/Wirecloud-Components/issues</issuetracker>
+  </details>
+  <preferences>
+    <preference name="desc-false" type="text" label="Description (false)" default="Inaktiv" />
+    <preference name="desc-true" type="text" label="Description (true)" default="Aktiv" />
+  </preferences>
+  <wiring>
+    <inputendpoint name="flagInput" type="text" label="Boolean" description="Value to visualize" friendcode="boolean"/>
+  </wiring>
+  <contents src="index.html" useplatformstyle="true"/>
+  <rendering height="200px" width="200px"/>
+</widget>

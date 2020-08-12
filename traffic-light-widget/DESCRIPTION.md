@@ -1,0 +1,1 @@
+Visualize a single boolean value using a red (`false`) or green (`true`) circle
