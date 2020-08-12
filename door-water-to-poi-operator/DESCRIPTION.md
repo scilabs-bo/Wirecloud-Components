@@ -1,0 +1,1 @@
+Transforms the readings from a door and water sensor into a POI
