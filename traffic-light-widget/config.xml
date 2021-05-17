@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<widget xmlns="http://wirecloud.conwet.fi.upm.es/ns/macdescription/1" vendor="SCiLabs" name="traffic-light" version="1.0.0">
+<widget xmlns="http://wirecloud.conwet.fi.upm.es/ns/macdescription/1" vendor="SCiLabs" name="traffic-light" version="1.0.1">
   <details>
     <title>Traffic light</title>
     <homepage>https://github.com/smart-city-lab-2050/Wirecloud-Components</homepage>
